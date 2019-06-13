@@ -1,8 +1,6 @@
 package mu.Project;
 
-import com.sun.jdi.InvalidTypeException;
-
-public class TypeException extends InvalidTypeException {
+public class TypeException extends Exception {
 
     public TypeException(String message) {
         super(message);
