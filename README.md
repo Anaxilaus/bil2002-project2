@@ -1,5 +1,5 @@
 ## Project 2
-[![java-version](https://img.shields.io/badge/Java-11-orange.svg?style=flat-square&logo=java)](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+[![java-version](https://img.shields.io/badge/Java-8-orange.svg?style=flat-square&logo=java)](./pom.xml)
 [![project-version](https://img.shields.io/badge/Version-v1.1-9cf.svg?style=flat-square)](./bin/Project-1.1.jar?raw=yes)
 
 - [Description](./DESCRIPTION.md)
@@ -64,7 +64,7 @@ Launch portable jar on command line as below to run the program:
 $ java -jar Project-1.1.jar
 ```
 
-**Note:** Java 11 or higher.
+**Note:** Java 8 or higher.
 
 ## Usage
 Testing accounts with default password, `"password"`
