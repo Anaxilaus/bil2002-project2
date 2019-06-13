@@ -85,7 +85,7 @@ public class AdminController extends AccountController {
             }
 
             Reservation.removeReservation(email, startDate, hotel_name, room_number);
-            getFrame().showReservationCancellationSuccessfulAlert(hotel_name, room_number, startDateString);
+            getFrame().showReservationCancellationSuccessfulAlert(email, hotel_name, room_number, startDateString);
             searchButtonClicked();
 
         } catch (SQLException e) {

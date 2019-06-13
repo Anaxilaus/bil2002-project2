@@ -114,10 +114,10 @@ public class AdminView extends Frame {
         );
     }
 
-    public void showReservationCancellationSuccessfulAlert(String hotel_name, Integer room_number, String startDate) {
+    public void showReservationCancellationSuccessfulAlert(String email, String hotel_name, Integer room_number, String startDate) {
         JOptionPane.showMessageDialog(this,
-                String.format("Your reservation at %s for room number %d at %s successfully cancelled.",
-                        startDate, room_number, hotel_name),
+                String.format("%s's reservation at %s for room number %d at %s successfully cancelled.",
+							  email, startDate, room_number, hotel_name),
                 "Reservation Cancelled",
                 JOptionPane.PLAIN_MESSAGE);
     }
